@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiiro Commission Form</title>
+</head>
+<body>
+    <nav>
+        <img src="kiirologo.png" alt="kiiro">
+        <ul>
+            <li><a href="home.html" target="home">Home</a></li>
+            <li><a href="home.html" target="#my-style">Styles</a></li>
+            <li><a href="home.html" target="rates">Rates</a></li>
+            <li><a href="home.html" target="portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+    <h1>Commission Form</h1>
+    <form>
+        <label for="name" id="name">Name</label>
+        <input type="text" id="name">
+    </form>
+    <form>
+        <label for="country" id="country">Country</label>
+        <input type="text" id="country">
+    </form>
+    <form>
+        <label for="commission-type">Commission type</label>
+        <select name="commission-type" id="commission-type">
+            <option value="illustration">Character Illustration</option>
+            <option value="emotes">Emotes</option>
+            <option value="chibi">Chibi</option>
+        </select>
+    </form>
+    <form>
+        <label for="body-shot">Body-shot</label>
+        <select name="body-shot" id="body-shot">
+            <option value="headshot">headshot</option>
+            <option value="bust">Bust-up</option>
+            <option value="halfbody">Half-body</option>
+            <option value="fullbody">Full-body</option>
+        </select>
+    </form> 
+    <form>
+        <label for="add-ons">Add-ons</label>
+        <select name="add-ons" id="add-ons">
+            <option value="character">Additional Characters</option>
+            <option value="background">Background</option>
+            <option value="accessories">Accessories</option>
+            <option value="pets">Pets</option>
+        </select>
+    </form>
+    <form>
+        <label for="payment-method">Payment Method</label>
+        <select name="payment" id="payment-method">
+            <option value="paypal">Paypal</option>
+            <option value="gcash-maya">Gcash/maya</option>
+            <option value="bank-transfer">Bank transfer</option>
+        </select>
+    </form>
+    <form action="description">
+        <label for="description">Character Description</label><br>
+        <textarea name="description" id="description"></textarea>
+    </form>
+    <form>
+        <label for="">References</label>
+        <input type="file" name="reference" id="reference">
+    </form>
+    <button>Submit</button>
+</body>
+</html>
